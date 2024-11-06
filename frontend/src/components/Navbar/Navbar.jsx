@@ -26,7 +26,7 @@ const Navbar = ({setShowLogin}) => {
             <a href='#explore-collections' onClick={()=>setcollections("collections")} className={collections==="collections"?"active":""}>Collections</a>
             <a href='#app-download' onClick={()=>setcollections("mobile-app")} className={collections==="mobile-app"?"active":""}>Mobile app</a>
             <a href='#footer' onClick={()=>setcollections("contact-us")} className={collections==="contact-us"?"active":""}>Contact us</a>
-            <a href="http://localhost:4400/add" rel="noopener noreferrer">ADMIN-PANEL</a>
+            <a href="https://sketching-point-admin.onrender.com/add" rel="noopener noreferrer">ADMIN-PANEL</a>
 
         </ul>
         <div className="navbar-right">
