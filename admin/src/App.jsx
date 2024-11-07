@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-  const url = "http://localhost:8800";
+  const url = "https://sketching-point-backend.onrender.com";
 
   return (
     <div>
